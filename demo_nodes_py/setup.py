@@ -33,8 +33,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'listener = demo_nodes_py.topics.listener:main',
-            'talker = demo_nodes_py.topics.talker:main',
+            'demo_listener = demo_nodes_py.topics.listener:main',
+            'demo_talker = demo_nodes_py.topics.talker:main',
             'listener_qos = demo_nodes_py.topics.listener_qos:main',
             'talker_qos = demo_nodes_py.topics.talker_qos:main',
             'listener_serialized = demo_nodes_py.topics.listener_serialized:main',
